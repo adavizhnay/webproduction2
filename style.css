@@ -1,3 +1,135 @@
+body{
+    background-color: #ecfbd6;
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+#head{
+    background-color: #d2b1da;
+    text-align:center;
+    position: relative; 
+    top: -21px;
+}
+
+nav{
+    overflow: hidden;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type:none;
+    padding:0;
+    margin: 0 auto;
+    width: 12em;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    display: block;
+    padding: .5em;
+    border: 2px solid #5e3767;
+    border-radius:1em;
+    margin:.25em;
+}
+
+nav ul a:hover {
+    background-color: rgba(255,255,255,.5);
+}
+
+/* This code for link attributes has been modified from https://www.w3schools.com/css/tryit.asp?filename=trycss_link */
+a:link {
+    color: purple;
+  }
+a:visited {
+    color: green;
+  }
+a:hover {
+    color: hotpink;
+  }
+a:active {
+    color: lightpink;
+  }
+
 h1 {
-    display: flex;
+    padding-top: 20px;
+}
+
+h2{
+    letter-spacing:1px;
+    font-size: larger;
+    text-align:center;
+}
+
+#content{
+    position: relative;
+    margin: 0;
+}
+
+#main{
+    background-color:rgba(128,0,128,.7);
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+#mainprojects{
+    float: left;
+    width: 35%;
+    margin: 0;
+    margin-left: 10%;
+}
+
+#lefts{
+    width: 20%;
+    position: absolute;
+    top: 0;
+    left: 2.5%;
+    margin: 0;
+}
+
+#rights{
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 2.5%;
+    margin: 0;
+}
+
+#rightprojects{
+    float:left;
+    width: 40%;
+    margin: 0 5% 0 5%;
+    position: relative;
+    top: 80px;
+}
+
+.biggest{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:2em;
+    letter-spacing:3px;
+}
+
+.maintext{
+    text-indent:2em;
+    margin: 1em;
+    padding:2%;
+}
+
+.projectext{
+    text-align: center;
+    margin-bottom: 55%;
+}
+
+.media{
+    background-color:rgba(128,0,128,.7);
+    padding: 10px;
 }
